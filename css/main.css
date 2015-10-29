@@ -1,0 +1,42 @@
+#lynch {
+	height: 250px;
+	width: 250px;
+	border-radius: 10px;
+	border: 2px solid green;
+}
+
+#star {
+	margin-bottom: 5px;
+}
+
+#save {
+	margin-bottom: 1em;
+}
+
+body {
+	font-family: raleway;
+}
+h1 {
+	font-weight: bolder;
+}
+
+h3 {
+	margin-top: 5px;
+}
+#list {
+	background-color: lightgray;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+
+.title {
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	padding-bottom: 3px;
+}
+
+.btn-danger, .btn-success, .btn-info {
+	float: right;
+}

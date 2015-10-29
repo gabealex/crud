@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Oh Crud</title>
+
+        <!--Import Bootstrap-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--Include js library -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+
+        <!--Include jQuery rating plug-in -->
+        <script type="text/javascript" src="raty-2.7.0/lib/jquery.raty.js"></script>
+        <!-- <script type="text/javascript" src="raty-2.7.0/lib/jquery.raty-fa.js"></script> -->
+        <link rel="stylesheet" href="raty-2.7.0/lib/jquery.raty.css">
+        
+    	<!--Link Css -->
+		<link type="text/css" href="css/main.css" rel="stylesheet">
+		
+        <!-- Include parse library here -->
+        <script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+    </head>
+    <body>
+    	<div class="container" id="head">
+    	<h1>Marshawn Lynch's Face Review</h1>
+	    	<img id="lynch" src="img/lynch.jpg"><br>
+            <h3>Average Rating: <span id="avg-rating"></span></h3>
+
+	    	<p id ="desc">Pro Bowl NFL running back who was drafted 12th overall by the Buffalo Bills in 2007, then traded in 2010 to the Seattle Seahawks where he began to flourish and develop his notorious Best-Mode playing style.</p>
+    	</div>
+    	<div class="container">
+            <h2>Write a review!</h2>
+            <div id="star"></div>   
+    		<form>
+                <div class="form-group">
+                    <input class="form-control" id="title" placeholder ="a title for your review"></input>
+                </div>
+                <div class="form-group">
+                    <textarea rows='5' class="form-control" id="review" placeholder ="what did you think of this?"></textarea>
+                </div>
+                
+                <button class="btn btn-primary" id="save" type="submit">Save</button>
+            </form>
+    	</div>
+
+        <h2 class="container">Reviews</h2> 
+        <div class="container" id="list"> 
+        </div>
+
+    </body>
+    <script type="text/javascript" src="js/main.js"></script>
+</html>
